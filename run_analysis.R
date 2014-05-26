@@ -59,11 +59,7 @@ activity<-gsub(i,Labels[i,2],activity)
 mean_std_Table<-cbind(activity,mean_std_Table)
 ##head(mean_std_Table[,1:3],n=10)
 ##names(mean_std_Table)
-##Change labels to conform to R standards
-##newnames<-gsub(names(mean_std_Table),
-               lower(names(mean_std_Table)),)
-##names(newnames)
-##names(mean_std_Table)
+
 ##Create a second tidy data set with avg of each variable
 ##for each activity and each subject
 library(reshape2)
